@@ -51,6 +51,8 @@
 var start = new Date();
 // CODE
 
+
+// debut algo 1
 // exercice bonus
 let numberss = [-23, 42, 21, 90, 54, 362, -12, 57, 78, 84, 35, 546, 128, 7, 15, 65, 28];
 
@@ -92,26 +94,10 @@ for (let i = 0; i < numberss.length; i++) {
 }
 res.pop()
 console.log(res)
-
-// // exercice bonus2
-
-// let truc = 0;
-
-// while(truc <1 || truc >10000){ 
-
-//     truc = window.prompt("choisissez un nombre entre 1 et 10 000")
+   
+// debut algo 2
 
 
-// }
-// let ress ;
-// for(let i = 1 ; i< 10000; i++){
-
-//     if(i == truc ){
-//         ress= i
-//         console.log(" nombre d'essaies"+ i)
-//     }
-// }
-// console.log("res = "+ress )
 var start = new Date();
 let numb = [-448,
     -457,
