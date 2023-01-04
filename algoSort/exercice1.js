@@ -1,5 +1,54 @@
+// // Exercice 1
+
+// let animals = ["Dog", "Cat", "Spider", "Bat", "Snake", "Bear"];
+// for(let animal of animals){
+
+//   console.log(animal) 
+// }
+// // Exercice 2
+// let animals_even = ["Dog", "Cat", "Spider"];
+// let animals_odd = ["Bat", "Snake", "Bear"];
+// console.log("exercice 2")
+// for (let i = 0; i< animals_even.length; i ++){
+
+//     if(i%2 ==0){
+//         console.log(animals_even[i] +" pair")
+//     }
+// }
+
+// for (let i = 0; i< animals_odd.length; i ++){
+
+//     if(i%2 != 0){
+//         console.log(animals_odd[i] + " impair")
+//     }
+// }
+
+// // Exercice 3
+// let numbers = [10, 11, 15, 6];
+// let sum = 0
+
+// for( let i =0 ; i< numbers.length; i ++){
+
+//     sum += numbers[i]
+// }
+// console.log(sum)
 
 
+// // Exercice 4
+// let grades = [[20, 10], [15, 20], [13, 18]];
+// let somme = 0
+// let count = 0
+// for (let i =0 ; i < grades.length; i++ ){
+
+//     for (let j =0 ; j <  grades[i].length;j++){
+
+//         count++
+//         somme += grades[i][j]
+//     }
+// }
+
+// console.log( somme/count)
+var start = new Date();
 // CODE
 
 // exercice bonus
@@ -44,16 +93,25 @@ for (let i = 0; i < numberss.length; i++) {
 res.pop()
 console.log(res)
 
+// // exercice bonus2
+
+// let truc = 0;
+
+// while(truc <1 || truc >10000){ 
+
+//     truc = window.prompt("choisissez un nombre entre 1 et 10 000")
 
 
+// }
+// let ress ;
+// for(let i = 1 ; i< 10000; i++){
 
-
-
-
-
-
-
-
+//     if(i == truc ){
+//         ress= i
+//         console.log(" nombre d'essaies"+ i)
+//     }
+// }
+// console.log("res = "+ress )
 var start = new Date();
 let numb = [-448,
     -457,
